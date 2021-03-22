@@ -39,7 +39,7 @@ class CityListTest {
 
         cityList.add(new City("Regina", "Saskatchewan", "Edmonton"));
 
-        assertEquals(2, cityList.countCities());
+        assertEquals(3, cityList.countCities());
         assertTrue(cityList.hasCity(new City("Regina", "Saskatchewan","Edmonton")));
     }
 }
