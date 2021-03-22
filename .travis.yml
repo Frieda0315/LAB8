@@ -4,9 +4,15 @@ dist: trusty
 
 env:
   global:
+  - ANDROID_TARGET=android-22
+  - ANDROID_ABI=armeabi.v7a
 
 android:
   components:
+  - tools
+  - platform-tools
+  - build-tools-23.0.3
+  - android-23
 
     # Additional components
     - extra-google-google_play_services
